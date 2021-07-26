@@ -1,0 +1,168 @@
+
+
+h1, h1 { 
+font-size: 10rpx;
+color: black;
+text-decoration: none;
+text-align-last: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+/** HEADER **/
+#header-nav {
+background-color: white;
+margin-bottom: 20px;
+}
+
+.navbar-brand h1 { 
+text-decoration: none; 
+text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus { 
+text-decoration: none; 
+}
+
+/** HOME **/
+.title { 
+margin: 25px; 
+}
+h4 { 
+padding: 10px; 
+font-size: 15px !important;}
+
+P { 
+position: relative;
+font-size: 20px;
+font-weight: bold;
+width: 25%;
+min-width: 25%;
+max-width: 25%;
+float: right;
+text-align: center;
+position: relative;
+right: 0;
+margin-left: 78.20%;
+margin-bottom: 10px;
+}
+
+.row2 {
+width: 100%; 
+padding: 50px;
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+}
+
+.sushi { 
+margin-right: 40% !important;
+float: right;
+justify-content: center;
+}
+
+.beef { 
+margin-right: 40% !important;
+float: right;
+}
+
+.chicken { 
+margin-right: 40% !important;
+float: right;
+}
+
+.navbar-nav .nav-link { 
+text-align-last: center; }
+
+.backtop { 
+color: blue; }
+
+/* DESKTOP SCREEN */
+@media (min-width: 992px) { 
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, 
+	.col-lg-12 {
+	float: left;
+    }
+
+	.col-lg-3 { 
+	border: 3px solid;
+	border-color: black;
+	width: 35%;
+	height: 200px; 
+	margin: 10px;
+    background-color: lightgray;
+    overflow: hidden;
+
+    }
+
+    .col-lg-4 { 
+	border: 3px solid;
+	border-color: black;
+	width: 35%;
+	margin: 10px;
+	height: 200px; 
+    background-color: lightgray;
+    overflow: hidden;
+    }
+
+.row2 {
+width: 115%; 
+padding: 50px;
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+}
+
+}
+
+/* TABLET SCREEN */
+@media (min-width: 768px) and (max-width:  991px) { 
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, 
+	.col-lg-12 {
+		float: right;
+    }
+
+	.col-lg-3 {
+	border: 3px solid;
+	border-color: black;
+	width: 45%;
+	margin: 15px;
+	height: 200px; 
+    background-color: lightgray;
+    overflow: hidden;
+	}
+
+	.col-lg-4 {
+	border: 3px solid;
+	border-color: black;
+	width: 93.6%;
+	margin: 15px;
+	height: 200px; 
+    background-color: lightgray;
+    overflow: hidden;
+	}
+}
+
+/* MOBILE SCREEN */
+@media (max-width: 767px) { 
+
+	.col-lg-3 { 
+	border: 3px solid;
+	border-color: black;
+	width: 94%;
+	margin: 15px;
+	height: 200px; 
+    background-color: lightgray;
+    overflow: hidden;
+    }
+
+    .col-lg-4 { 
+	border: 3px solid;
+	border-color: black;
+	width: 94%;
+	margin: 15px;
+	height: 200px; 
+    background-color: lightgray;
+    overflow: hidden;
+    }
+}
